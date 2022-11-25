@@ -16,18 +16,34 @@
     height: 20px;
     fill: azure;
 }
+
+.imglog4{
+    width: 16px;
+    height: 16px;
+    fill:currentColor;
+}
+
 header{
     
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
+    
+ 
     
     
     
 }
-.pos{
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background: rgb(255, 253, 253);
     position: fixed;
+    width: 2000px;
+    height:70px;
 }
 header h1{
     
@@ -223,7 +239,7 @@ section h2{
     width: 650px;
 }
 .boxherf a{
-    color: gray;
+    color: rgb(175, 175, 175);
     font-size: 16px;
     font-weight: 600;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -241,5 +257,7 @@ section h2{
     margin-right: 10px;
 
 }
-
+.boxherf soft1:hover{
+    color: rgb(5, 248, 5);
+}
 /*section css code End*/
