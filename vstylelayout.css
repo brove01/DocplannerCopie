@@ -1,36 +1,245 @@
-.container{
+/*header css code Begin*/
+.imglog1{
+    width: 30px;
+    height: 30px;
+    fill: azure;
+}
+
+.imglog2{
+    margin-top:20px; 
+    margin-bottom:40px;
+    width: 40px;
+    height: 40px;
+}
+.imglog3{
+    width: 20px;
+    height: 20px;
+    fill: azure;
+}
+header{
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-around; /*changement des element fils par raport de row*/
-    flex-wrap:wrap ;/*retour à la ligne*/
-    align-items:flex-end; /*changement des elements fils par raport de column*/
-    align-content: center; /*changement de plusieurs ligne des elements fils par raport de column*/
-
-}
-.child{
-    position:relative ;
-}
-
-
-
-.grid-container{
-    display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
-}
-.iteam{
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
-    justify-self:;
-}
-@media screen and () {
+    align-items: center;
+    justify-content:space-evenly;
+    
+    
     
 }
-@font-face{
+.pos{
+    position: fixed;
+}
+header h1{
+    
+    color: rgb(4, 203, 156); 
+    display: inline;
+    font-size:30px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
+}
+span{
+    color: rgb(171, 171, 171);
+}
+.navbarr {
+    overflow: hidden;
+    background-color: rgb(255, 253, 253);
+    
+}
+  
+.navbarr a {
+    float: left;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+  
+ .dropdownn {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdownn .dropbtnn {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: gray;
+    padding: 14px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbarr a:hover, .dropdownn:hover .dropbtnn {
+    color: rgb(4, 203, 156);
+}
+  
+.dropdownn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdownn-content a {
+    float: none;
+    color:  gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  .dropdownn-content a:hover {
+    background-color: rgb(240, 240, 240);
+}
+  
+  .dropdownn:hover .dropdownn-content {
+    display: block;
+}
+/*header css code End*/
+
+
+/*section css code Begin*/
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin:60px;
 
 }
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">/*make it in every head of pages.htmls for awsom font icons*/
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">/*make it in every head of pages.htmls Bootstrap*/
-/*remember to fix and study carfuly the two lasts dyapo in css layout Bootstrap grid system and classes*/
+select{
+    border: 0ch;
+    background:none;
+    color: azure;
+    text-decoration: underline ; 
+  }
+  
+.boxpop1{
+    display: flex;
+    flex-direction: row;
+    justify-items:space-around;
+    margin-top: 70px;
+
+}
+.boxpop2 {
+    display: flex;
+    flex-direction: row;
+    
+    align-items:stretch;
+    margin-top: 70px;
+    
+
+}
+.boxdiv{
+    color: rgb(109, 108, 108);
+    font-size: 15px;
+    word-spacing: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+section h1{
+    color: rgb(4, 203, 156); 
+    font-size:35px;
+ 
+    font-weight:300;
+}
+
+.boxbl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(2, 125, 202);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.boxve{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(4, 203, 156);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.boxno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(14, 13, 13);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+section h2{
+    color: rgb(247, 247, 247); 
+    
+    font-size:25px;
+    font-weight:400;
+
+}
+.boxpop2 p{
+    color: rgb(247, 247, 247); 
+    
+    font-size:25px;
+    font-weight: 300;
+    margin-bottom: 60px;
+
+}
+.boxherfg{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 70px;
+}
+.boxherfg h2{
+
+    color: rgb(4, 203, 156); 
+    font-size:30px;
+    font-weight:300;
+    margin-right:100px;
+
+    
+}
+.boxherf{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: space-around;
+    align-content: 800px;
+    flex-wrap: wrap;
+    width: 650px;
+}
+.boxherf a{
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.boxherf a:hover{
+    color: rgb(2, 161, 2);
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/*section css code End*/
