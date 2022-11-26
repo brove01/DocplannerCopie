@@ -49,7 +49,7 @@ nav{
     position: fixed;
     width: 2000px;
     height:70px;
-    
+    position: relative;
     
 }
 header h1{
@@ -63,6 +63,7 @@ header h1{
 span{
     color: rgb(171, 171, 171);
 }
+
 .navbarr {
     overflow: hidden;
     background-color: rgb(255, 253, 253);
@@ -140,22 +141,23 @@ select{
     background:none;
     color: azure;
     text-decoration: underline ; 
+    position: relative;
   }
   
 .boxpop1{
     display: flex;
-    flex-direction: row;
+    
     justify-items:space-around;
     margin-top: 70px;
+    position: relative;
 
 }
 .boxpop2 {
     display: flex;
     flex-direction: row;
-    
     align-items:stretch;
     margin-top: 70px;
-    
+    position:relative;
 
 }
 .boxdiv{
@@ -166,7 +168,7 @@ select{
     margin-left: 20px;
     font-weight: 300;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    position: relative;
     
 }
 section h1{
